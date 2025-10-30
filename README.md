@@ -11,6 +11,9 @@ To run this project, you only need to open the HatchWorksCodeChallenge.xcodeproj
 ## Third-party libraries
 - [SDWebImage](https://github.com/SDWebImage/SDWebImageSwiftUI): SwiftUI image loading and cache framework.
 
+## API Documentation
+As a data source, the [The Movie Database (TMDB) API](https://developer.themoviedb.org/docs/getting-started) is used.
+
 ## Architecture
 <img width="2644" height="1364" alt="architecture" src="https://github.com/user-attachments/assets/a0dff9eb-afe9-4178-bba7-42734ca3d331" />
 The Hatchworks app has been created using an architecture based on the [Clean architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) proposal that, in short terms, looks to create different layers to separate concerns and control the data and flow control of the system. In this case, there are three main layers in the Hatchworks app code:
